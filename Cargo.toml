@@ -8,10 +8,7 @@ publish = false
 [dependencies]
 solana-program = "=1.7.11"
 thiserror = "1.0.24"
-<<<<<<< HEAD
 spl-token = {version = "3.1.1", features = ["no-entrypoint"]}
-=======
->>>>>>> 1a36c4af2ead0e083ffe9db40a11dac858ddc1fd
 
 [lib]
 crate-type = ["cdylib", "lib"]
