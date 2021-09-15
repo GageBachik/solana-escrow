@@ -10,6 +10,8 @@ pub enum EscrowError {
     AccountAlreadyInitialized,
     #[error("Not Rent Exempt")]
     NotRentExempt,
+    #[error("Expected Amount Mismatch")]
+    ExpectedAmountMismatch,
 }
 
 impl From<EscrowError> for ProgramError {
